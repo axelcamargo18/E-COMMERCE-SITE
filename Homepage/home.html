@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>IRIS Skateshop</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="E-Commerce-Logo.png" id="logo" alt="Project-logo" />
+
+      <nav class="navbar">
+        <a href="./home.html">shoes</a>
+        <a href="../ClothingPage/clothings.html">clothing</a>
+        <a href="../Productspage/products.html">skateboards</a>
+
+        <a href="../Contact Page/contactus.html">contact us</a>
+      </nav>
+    </header>
+
+    <div class="slider-wrapper">
+      <section class="slider-slideshow">
+        <!-- Image 1 -->
+        <section class="slider-slideshow__image">
+          <a class="slider-slideshow__link">
+            <video class="slider-image" autoplay loop>
+              <source src="./Slideshow Images/tyshawn-01-1254w.mp4" />
+            </video>
+
+            
+          </a>
+        </section>
+
+        <section class="slider-slideshow__image">
+          <a class="slider-slideshow__link" href="">
+            <img
+              class="slider-image"
+              src="Slideshow Images/Baker4_Andrew_photo2_1500px_2x.jpeg"
+              style="display: block"
+            />
+          </a>
+        </section>
+
+        <!-- Image 2 -->
+        <section class="slider-slideshow__image">
+          <a class="slider-slideshow__link">
+            <img
+              class="slider-image"
+              src="Slideshow Images/Axel-skating-romare.jpg"
+              style="display: none"
+            />
+          </a>
+        </section>
+
+        <!-- Image 3 -->
+        <section class="slider-slideshow__image">
+          <a class="slider-slideshow__link">
+            <img
+              class="slider-image"
+              src="Slideshow Images/fujfilm-camera.jpg"
+              style="display: none"
+            />
+          </a>
+        </section>
+        <!-- Next and Previous Buttons -->
+        <a class="prev" onclick="plusSlides(-1)"></a> <img src="Slideshow Images/chevron_left_FILL0_wght400_GRAD0_opsz48.svg" alt=""></a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">
+               IRIS Skateshop is a 100% skateboarder owned and operated shop, serving the community of Charlotte, NC since October 15, 2022.
+ 
+
+              Life's all about Perspective. Enjoy it, smile, and spread happiness.
+            </p>
+          </div>
+
+          <!-- <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li>
+                <a href="http://scanfcode.com/category/front-end-development/"
+                  >UI Design</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/category/back-end-development/"
+                  >PHP</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://scanfcode.com/category/java-programming-language/"
+                  >Java</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/category/android/">Android</a>
+              </li>
+              <li>
+                <a href="http://scanfcode.com/category/templates/">Templates</a>
+              </li>
+            </ul>
+          </div> -->
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li>
+                <a href="http://scanfcode.com/contribute-at-scanfcode/"
+                  >Contribute</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/privacy-policy/"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; 2022 All Rights Reserved by
+              <a href="#">IRIS Skateshop</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+              </li>
+              <li>
+                <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="slider.js"></script>
+  </body>
+</html>
