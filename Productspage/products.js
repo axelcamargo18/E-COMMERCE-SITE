@@ -13,6 +13,7 @@ fetch("products.json")
 function getProducts(data) {
   let output = "";
   console.log(data);
+  // going through each object creating a template literal for each object and chaining and setting equal to the output variable //
   data.forEach((item) => {
     output += `
         <div class="product">
