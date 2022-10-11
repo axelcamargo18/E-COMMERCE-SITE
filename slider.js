@@ -13,6 +13,9 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("slider-image");
+  if (i == 1) {
+    document.getElementById("myVideo").autoplay;
+  }
   if (n > slides.length) {
     slideIndex = 1;
   }
