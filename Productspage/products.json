@@ -1,74 +1,85 @@
 [
   {
+    "title": "Anti-hero",
     "image": "Products-img/Anti-hero.jpeg",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.25",
     "price": "69.99"
   },
   {
+    "title": "Baker",
     "image": "Products-img/Baker-OG-Black-Logo-Deck-83875_704085f8-47aa-4e9d-9bbf-4d2d02c5eda9_600x600.webp",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.0.",
     "price": "69.99"
   },
   {
+    "title": "Chocolate",
     "image": "Products-img/Chocolate-Skateboards-Kenny-Anderson-Lifted-Chunk-Deck-8_0_600x600.webp",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "7.75.",
     "price": "60.99"
   },
   {
+    "title": "Anti-hero",
     "image": "Products-img/Chocolate-Skateboards-Raven-Tershy-Mad-8-Ball-Couch-Deck-9_25_600x600.jpeg",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.0.",
     "price": "69.99"
   },
   {
+    "title": "Creature",
     "image": "Products-img/Creature-Logo-Stumps-Deck-8_25_600x600.jpeg",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.5.",
     "price": "69.99"
   },
   {
+    "title": "Girl",
     "image": "Products-img/Girl-Skateboards-Tyler-Pacheco-Blooming-Deck-8_375_600x600.jpeg",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.0.",
     "price": "69.99"
   },
   {
+    "title": "Heroin",
     "image": "Products-img/Heroin-Lee-Yankou-Giallo-Deck-825_0083fd67-9a42-4033-ba46-379f70768a8b_600x600.jpeg",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.25.",
     "price": "69.99"
   },
   {
+    "title": "Hook-ups",
     "image": "Products-img/Hook-Ups-Skateboards-Airlines-Deck-8_25_600x600.jpeg",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "7.75.",
     "price": "69.99"
   },
   {
+    "title": "Hook-ups",
     "image": "Products-img/Hook-Ups-Skateboards-Nurse-Daisy-Deck-8_25_600x600.jpeg",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.0.",
     "price": "69.99"
   },
   {
     "image": "Products-img/Palace-Skateboards-Chewy-Cannon-Pro-S29-Deck-8_375_600x600.webp",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.25.",
     "price": "69.99"
   },
   {
+    "title": "Palace",
     "image": "Products-img/Powell-Peralta-OG-Rat-Bones-Reissue-Deck-10-Olive-Green_600x600.jpeg",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.0.",
     "price": "69.99"
   },
   {
+    "title": "Tired",
     "image": "Products-img/Tired-Skateboards-Detergent-Sigar-Shaped-Deck-9_25_600x600.webp",
     "name": "Product name",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "8.25.",
     "price": "69.99"
   }
 ]
