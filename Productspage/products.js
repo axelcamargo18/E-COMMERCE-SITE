@@ -1,3 +1,11 @@
+// fetch function will return a promise //
+
+// .then will run the json data in the response //
+
+// run the then function with the response as a parameter. To get the JSON data from the response, we execute the json() function.//
+
+// json() function also returns a promise. This is why we just return it and chain another then function. In the second then function we get the actual JSON data as a parameter. This data looks just like the data in our JSON file.//
+
 fetch("products.json")
   .then((res) => res.json())
   .then((data) => getProducts(data));
